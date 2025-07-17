@@ -1,0 +1,21 @@
+{
+  "valid": {
+    "parsedTransactions": [
+      {
+        "date": "2025-10-12 20:15",
+        "amount": 250,
+        "ceiling": 300,
+        "remanent": 50
+      },
+      {
+        "date": "2025-10-13 20:15",
+        "amount": 350,
+        "ceiling": 400,
+        "remanent": 50
+      }
+    ]
+  },
+  "invalid": {
+    "parsedTransactions": []
+  }
+}

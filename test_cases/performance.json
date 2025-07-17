@@ -1,0 +1,10 @@
+{
+  "method": "GET",
+  "path": "/blackrock/challenge/v1/performance",
+  "input": null,
+  "expected_output": {
+    "time": 3.887,
+    "memory": 10.2,
+    "threads": 20
+  }
+}

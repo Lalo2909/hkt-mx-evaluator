@@ -1,0 +1,16 @@
+{
+  "transactionsTotalAmount": 1200,
+  "transactionsTotalCeiling": 1000,
+  "investedAmount": 1500,
+  "profits": 100,
+  "historical_data": [
+    {
+      "month": 1,
+      "transactionsTotalAmount": 1200,
+      "transactionsTotalCeiling": 1000,
+      "investedAmount": 1500,
+      "profits": 100,
+      "parsedTransactions": []
+    }
+  ]
+}

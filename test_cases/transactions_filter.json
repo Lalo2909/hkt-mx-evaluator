@@ -1,0 +1,68 @@
+{
+  "method": "POST",
+  "path": "/blackrock/challenge/v1/transactions:filter",
+  "input": {
+    "q": {
+      "qTransactions": [
+        {
+          "fixed": 0,
+          "start": "2025-10-12 20:15",
+          "end": "2025-10-12 20:15"
+        }
+      ]
+    },
+    "p": {
+      "pTransactions": [
+        {
+          "extra": 25,
+          "start": "2025-10-12 20:15",
+          "end": "2025-10-12 20:15"
+        }
+      ]
+    },
+    "k": {
+      "kTransactions": [
+        {
+          "start": "2025-10-12 20:15",
+          "end": "2025-10-12 20:15"
+        }
+      ]
+    },
+    "wage": 5000,
+    "parsedTransactions": [
+      {
+        "date": "2025-10-12 20:15",
+        "amount": 250,
+        "ceiling": 300,
+        "remanent": 50
+      },
+      {
+        "date": "2025-10-13 20:15",
+        "amount": 350,
+        "ceiling": 400,
+        "remanent": 50
+      }
+    ]
+  },
+  "expected_output": {
+    "valid": {
+      "parsedTransactions": [
+        {
+          "date": "2025-10-12 20:15",
+          "amount": 250,
+          "ceiling": 300,
+          "remanent": 50
+        },
+        {
+          "date": "2025-10-13 20:15",
+          "amount": 350,
+          "ceiling": 400,
+          "remanent": 50
+        }
+      ]
+    },
+    "invalid": {
+      "parsedTransactions": []
+    }
+  }
+}
